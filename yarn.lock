@@ -1133,7 +1133,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
-"@emotion/react@^11.1.1", "@emotion/react@^11.9.0":
+"@emotion/react@^11.1.1":
   version "11.9.0"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.9.0.tgz#b6d42b1db3bd7511e7a7c4151dc8bc82e14593b8"
   integrity sha512-lBVSF5d0ceKtfKCDQJveNAtkC7ayxpVlgOohLgXqRwqWr9bOf4TZAFFyIcNngnV6xK6X4x2ZeXq7vliHkoVkxQ==
@@ -1162,7 +1162,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.0.tgz#56d99c41f0a1cda2726a05aa6a20afd4c63e58d2"
   integrity sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==
 
-"@emotion/styled@^11.0.0", "@emotion/styled@^11.8.1":
+"@emotion/styled@^11.0.0":
   version "11.8.1"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.8.1.tgz#856f6f63aceef0eb783985fa2322e2bf66d04e17"
   integrity sha512-OghEVAYBZMpEquHZwuelXcRjRJQOVayvbmNR0zr174NHdmMgrNkLC6TljKC5h9lZLkN5WGrdUcrKlOJ4phhoTQ==
@@ -3601,7 +3601,7 @@ babel-plugin-remove-graphql-queries@^4.13.0:
     "@babel/runtime" "^7.15.4"
     gatsby-core-utils "^3.13.0"
 
-"babel-plugin-styled-components@>= 1.12.0", babel-plugin-styled-components@^2.0.7:
+"babel-plugin-styled-components@>= 1.12.0":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-2.0.7.tgz#c81ef34b713f9da2b7d3f5550df0d1e19e798086"
   integrity sha512-i7YhvPgVqRKfoQ66toiZ06jPNA3p6ierpfUuEWxNF+fV27Uv5gxBkf8KZLHUCc1nFA9j6+80pYoIpqCeyW3/bA==
@@ -6248,7 +6248,7 @@ gatsby-parcel-config@^0.4.0:
     "@parcel/transformer-raw" "^2.3.2"
     "@parcel/transformer-react-refresh-wrap" "^2.3.2"
 
-gatsby-plugin-emotion@^7.13.0, gatsby-plugin-emotion@^7.3.0:
+gatsby-plugin-emotion@^7.3.0:
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-7.13.0.tgz#d20a9d05ab7f5b8cccb89d149df40e5c5814c8a0"
   integrity sha512-CsulpyUurhdDpeHdoHgZeDHQGk8+V2lvm/nVr9I6y13CMIYLwabq0RYjQiQ0WFmZhaZ9F3QaFWw0owyBj4K9CA==
@@ -6380,13 +6380,6 @@ gatsby-plugin-sharp@^4.3.0:
     sharp "^0.30.3"
     svgo "1.3.2"
     uuid "3.4.0"
-
-gatsby-plugin-styled-components@^5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-5.13.0.tgz#110ab554d52637a45edfc62e663a7c9c6dc8649c"
-  integrity sha512-0nsLFQGgcQXxSR5MxHqUAnIkM9F6IdLXQfBkj4I2RTao1vZKebRU5wByNNMpS7VehIaS+FGzEw2+WUZOg29eUQ==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
 
 gatsby-plugin-theme-ui@0.7.0:
   version "0.7.0"
