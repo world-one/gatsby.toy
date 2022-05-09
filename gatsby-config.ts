@@ -6,24 +6,22 @@ const config: GatsbyConfig = {
     author: `My Name`,
     description: `My site description...`,
     social: [
-      {
-        name: `Twitter`,
-        url: `https://twitter.com/gatsbyjs`,
-      },
-      {
-        name: `GitHub`,
-        url: `https://github.com/gatsbyjs`,
-      },
+      // {
+      //   name: `Twitter`,
+      //   url: `https://twitter.com/gatsbyjs`,
+      // },
+      // {
+      //   name: `GitHub`,
+      //   url: `https://github.com/gatsbyjs`,
+      // },
     ],
   },
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-  options: {
-  basePath: `/`,
-  prismPreset: `dracula`,
-    },
-    },
+      options: {
+      },
+    }
   ],
 };
 
